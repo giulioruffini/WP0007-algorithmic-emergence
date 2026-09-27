@@ -1,0 +1,11 @@
+Copyright 2026 Giulio Ruffini and contributors.
+
+Code, including Python and LaTeX figure sources, is licensed under the Apache License,
+Version 2.0. See LICENSES/Apache-2.0.txt.
+
+Data, recorded results, generated figures, and documentation are licensed under the
+Creative Commons Attribution 4.0 International License. See LICENSES/CC-BY-4.0.txt.
+
+This is the BCOM paper-companion exception to proprietary-by-default, adopted 2026-09-27.
+The licenses apply to the original material in this repository. Third-party works are
+referenced by links and are not redistributed here.

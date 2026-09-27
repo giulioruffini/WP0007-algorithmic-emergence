@@ -1,0 +1,60 @@
+{
+  "glider": {
+    "construction_runs": 294,
+    "test_runs": 2,
+    "acquisition": [
+      18951,
+      0
+    ],
+    "coordinates": [
+      6174,
+      42
+    ],
+    "corrections": [
+      0,
+      0
+    ],
+    "complete_code": [
+      25125,
+      42
+    ],
+    "baseline": [
+      25284,
+      172
+    ],
+    "saving": [
+      159,
+      130
+    ],
+    "margin": [
+      128,
+      128
+    ]
+  },
+  "cellular_automaton": {
+    "AND": {
+      "rule": 128,
+      "acquisition": 30,
+      "coordinates": 121,
+      "construction_corrections": 0,
+      "complete_construction": 151,
+      "baseline": 361,
+      "construction_saving": 210,
+      "test_corrections": 0,
+      "complete_test": 121,
+      "test_saving": 240
+    },
+    "OR": {
+      "rule": 182,
+      "acquisition": 30,
+      "coordinates": 121,
+      "construction_corrections": 26307,
+      "complete_construction": 26458,
+      "baseline": 361,
+      "construction_saving": -26097,
+      "test_corrections": 27440,
+      "complete_test": 27561,
+      "test_saving": -27200
+    }
+  }
+}

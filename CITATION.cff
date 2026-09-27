@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "Please cite the paper for the scientific work; cite this repository's tagged software release when using the code."
+title: "WP0007: Algorithmic emergence — reproducible examples"
+type: software
+authors:
+  - family-names: Ruffini
+    given-names: Giulio
+    orcid: "https://orcid.org/0000-0003-3084-0177"
+  - family-names: Castaldo
+    given-names: Francesca
+    orcid: "https://orcid.org/0000-0002-4947-4552"
+repository-code: "https://github.com/giulioruffini/WP0007-algorithmic-emergence"
+url: "https://github.com/giulioruffini/WP0007-algorithmic-emergence"
+license: Apache-2.0
+keywords:
+  - Kolmogorov Theory
+  - algorithmic emergence
+  - cellular automata
+  - compression
+preferred-citation:
+  type: report
+  title: 'From "More Is Different" to Algorithmic Emergence: Regularity, Compression, and the Limits of Discovery'
+  authors:
+    - family-names: Ruffini
+      given-names: Giulio
+      orcid: "https://orcid.org/0000-0003-3084-0177"
+    - family-names: Castaldo
+      given-names: Francesca
+      orcid: "https://orcid.org/0000-0002-4947-4552"
+    - name: Kaiti
+    - name: Klaus
+  institution:
+    name: Barcelona Computational Foundation
+  number: WP0007
+  year: 2026
+  doi: "10.5281/zenodo.21008465"
+  url: "https://doi.org/10.5281/zenodo.21008465"
+# A software DOI will be added after the first manuscript-bound code release.

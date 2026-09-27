@@ -1,0 +1,136 @@
+{
+  "cells": 360,
+  "coarse_steps": 40,
+  "microsteps_per_coarse_step": 3,
+  "training_seed": 7,
+  "test_seed": 23,
+  "literal_coarse_bits": 4920,
+  "construction_margin_bits": 128,
+  "test_margin_bits": 128,
+  "seeds_supplied_to_decoders": false,
+  "cases": {
+    "AND": {
+      "projection_table": 128,
+      "selected_rule": 128,
+      "selection_criterion": "minimum one-step bit errors, lowest rule number on ties",
+      "one_step_errors": 0,
+      "neighborhoods_observed": 4800,
+      "conflicts_against_first_successor": 0,
+      "local_successors": {
+        "000": [
+          0
+        ],
+        "001": [
+          0
+        ],
+        "010": [
+          0
+        ],
+        "011": [
+          0
+        ],
+        "100": [
+          0
+        ],
+        "101": [
+          0
+        ],
+        "110": [
+          0
+        ],
+        "111": [
+          1
+        ]
+      },
+      "construction": {
+        "acquisition_bits": 30,
+        "coordinate_and_flag_bits": 121,
+        "correction_bits": 0,
+        "errors_in_movie": 0,
+        "retained_code_bits": 151,
+        "reuse_code_bits": 121,
+        "baseline_bits": 361,
+        "construction_saving_bits": 210,
+        "reuse_saving_bits": 240,
+        "final_row_errors": 0
+      },
+      "test": {
+        "acquisition_bits": 30,
+        "coordinate_and_flag_bits": 121,
+        "correction_bits": 0,
+        "errors_in_movie": 0,
+        "retained_code_bits": 151,
+        "reuse_code_bits": 121,
+        "baseline_bits": 361,
+        "construction_saving_bits": 210,
+        "reuse_saving_bits": 240,
+        "final_row_errors": 0
+      },
+      "minimum_construction_bits_over_256_rules_with_declared_correction_code": 151
+    },
+    "OR": {
+      "projection_table": 254,
+      "selected_rule": 182,
+      "selection_criterion": "minimum one-step bit errors, lowest rule number on ties",
+      "one_step_errors": 1370,
+      "neighborhoods_observed": 4800,
+      "conflicts_against_first_successor": 1476,
+      "local_successors": {
+        "000": [
+          0
+        ],
+        "001": [
+          1
+        ],
+        "010": [
+          0,
+          1
+        ],
+        "011": [
+          0,
+          1
+        ],
+        "100": [
+          1
+        ],
+        "101": [
+          0,
+          1
+        ],
+        "110": [
+          0,
+          1
+        ],
+        "111": [
+          0,
+          1
+        ]
+      },
+      "construction": {
+        "acquisition_bits": 30,
+        "coordinate_and_flag_bits": 121,
+        "correction_bits": 26307,
+        "errors_in_movie": 2022,
+        "retained_code_bits": 26458,
+        "reuse_code_bits": 26428,
+        "baseline_bits": 361,
+        "construction_saving_bits": -26097,
+        "reuse_saving_bits": -26067,
+        "final_row_errors": 54
+      },
+      "test": {
+        "acquisition_bits": 30,
+        "coordinate_and_flag_bits": 121,
+        "correction_bits": 27440,
+        "errors_in_movie": 2109,
+        "retained_code_bits": 27591,
+        "reuse_code_bits": 27561,
+        "baseline_bits": 361,
+        "construction_saving_bits": -27230,
+        "reuse_saving_bits": -27200,
+        "final_row_errors": 52
+      },
+      "minimum_construction_bits_over_256_rules_with_declared_correction_code": 24989
+    }
+  }
+}
